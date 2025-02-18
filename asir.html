@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASIR</title>
+    <link rel="stylesheet" href="asir.css">
+<script>
+     function mostrarMensaje(event) {
+            const nombre = document.getElementById("nombre").value;
+            const apellido = document.getElementById("apellido").value;
+            alert(`Bienvenido ${nombre} ${apellido} te vas a matricular en ASIR`);
+        }
+</script>
+</head>
+<body>
+    <h1>
+        IES El Grao
+    </h1>
+    <div class="form">
+        <form onsubmit="mostrarMensaje(event)">
+        <p>Nombre: <input type="text" name="nombre" id="nombre"></p>
+        <p>Apellido:<input type="text" name="apellido" id="apellido"></p>
+        <p>Año de nacimiento: <input type="date" name="date" id="date"></p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </form>
+    </div>
+<br>
+    <div class="final">
+        <p class="final">Web desarrollada por Adrian Conches Ferriz</p>
+     </div>
+
+</body>
+</html>
