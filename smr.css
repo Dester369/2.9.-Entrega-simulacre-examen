@@ -17,7 +17,6 @@ table {
 
     margin: 20px 0;
     color: red;
-    float: left;
 }
 
 th {
@@ -33,7 +32,6 @@ div.final{
     background-color: yellow;
     border-top: 1px black solid;
     border-bottom: 1px solid black;
-    margin-top: 15%;
 }
 p.final{
     background-color: yellow;
